@@ -1,0 +1,99 @@
+.spacing{
+    margin: 0; padding: 0;
+    padding-top: 10px;
+}
+.houseFlags{
+    height: 200px;
+    width: 150px;
+}
+.rosterButton{
+    margin-top: 10px;
+    margin-left: 25px;
+    max-width: 100px;
+}
+body{
+    background: url(./images/FEAwakening.jpg);
+}
+.Welcome{
+    color: springgreen;
+    border-style: solid;
+    background-color: black;
+}
+/*Creates a border for the front page at the top and bottom*/
+
+header{
+    text-align: center;
+}
+.BEfont{
+    color: crimson;
+  }
+.BLfont{
+    color: rgb(83, 126, 255);
+}
+.GDfont{
+    color: gold;
+}
+/* used for frontpage border of classes*/
+.ability{
+    color: rgb(21, 102, 252);
+}
+.spell{
+    color: green;
+}
+.art{
+    color: coral;
+    word-wrap: normal;
+}
+.iconSize{
+    max-width: 24px;
+    max-height: 24px;
+}
+.BEborder{
+    background-color: black;
+    color: crimson;
+    border-style: solid; 
+}
+.BLborder{
+    background-color: black;
+    color:  rgb(83, 126, 255);
+    border-style: solid; 
+}
+.GDborder {
+    background-color: black;
+    color:  gold;
+    border-style: solid; 
+}
+.txtCent{
+    text-align: center;
+}
+.lost{
+      color: blueviolet;
+}
+.selector {
+    position: fixed;
+    bottom: 50%;
+    max-width: 10%;
+    height: auto;
+    background-color: cadetblue;
+}
+@media screen and (max-width: 992px) {
+    
+    .column{
+      width: 50%;
+      
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 765px) {
+    
+    .column{
+    width: 100%;
+    }
+    body{
+    font-size: 12px;
+    }
+    .col-sm-1{
+        width: 20%;
+    }
+}
