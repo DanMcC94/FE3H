@@ -36,13 +36,15 @@ header{
 /* used for frontpage border of classes*/
 .ability{
     color: rgb(21, 102, 252);
+    line-height: 150%;
 }
 .spell{
     color: green;
+    line-height: 150%;
 }
 .art{
     color: coral;
-    word-wrap: normal;
+    line-height: 200%;
 }
 .iconSize{
     max-width: 24px;
@@ -74,7 +76,7 @@ header{
     top: 5%;
     max-width: 10%;
     height: auto;
-    padding: 3px;
+    padding: 10px;
     line-height: 200%;
 }
 a{
@@ -92,6 +94,8 @@ a{
   @media screen and (max-width: 765px) {
     .selector{
         font-size: 8px;
+        padding: 3px;
+        top: 0%;
     }
     .column{
     width: 100%;
