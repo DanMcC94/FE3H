@@ -71,10 +71,14 @@ header{
 }
 .selector {
     position: fixed;
-    bottom: 50%;
+    top: 5%;
     max-width: 10%;
     height: auto;
-    background-color: cadetblue;
+    padding: 3px;
+    line-height: 200%;
+}
+a{
+    color: inherit;
 }
 @media screen and (max-width: 992px) {
     
@@ -86,7 +90,9 @@ header{
   
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 765px) {
-    
+    .selector{
+        font-size: 8px;
+    }
     .column{
     width: 100%;
     }
