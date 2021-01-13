@@ -1,3 +1,6 @@
+body{
+    background: url(./images/FEAwakening.jpg);
+}
 .spacing{
     margin: 0; padding: 0;
     padding-top: 10px;
@@ -11,19 +14,15 @@
     margin-left: 25px;
     max-width: 100px;
 }
-body{
-    background: url(./images/FEAwakening.jpg);
-}
 .Welcome{
     color: springgreen;
     border-style: solid;
     background-color: black;
 }
-/*Creates a border for the front page at the top and bottom*/
-
 header{
     text-align: center;
 }
+
 .BEfont{
     color: crimson;
   }
@@ -32,23 +31,6 @@ header{
 }
 .GDfont{
     color: gold;
-}
-/* used for frontpage border of classes*/
-.ability{
-    color: rgb(21, 102, 252);
-    line-height: 150%;
-}
-.spell{
-    color: green;
-    line-height: 150%;
-}
-.art{
-    color: coral;
-    line-height: 200%;
-}
-.iconSize{
-    max-width: 24px;
-    max-height: 24px;
 }
 .BEborder{
     background-color: black;
@@ -65,6 +47,28 @@ header{
     color:  gold;
     border-style: solid; 
 }
+/*Span coloring for keywords*/
+.ability{
+    color: rgb(21, 102, 252);
+    line-height: 150%;
+}
+.spell{
+    color: green;
+    line-height: 150%;
+}
+.art{
+    color: coral;
+    line-height: 150%;
+}
+.class{
+    color: powderblue;
+}
+
+.iconSize{
+    max-width: 24px;
+    max-height: 24px;
+}
+
 .txtCent{
     text-align: center;
 }
