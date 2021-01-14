@@ -1,0 +1,17 @@
+.Speborder{
+    color: green;
+    border-style: solid;
+    background-color: black;
+}
+.fire{
+    color: red;
+}
+.elec{
+    color: yellow;
+}
+.wind{
+    color: chartreuse;
+}
+.ice{
+    color: cyan;
+}
