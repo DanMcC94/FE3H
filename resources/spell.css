@@ -2,6 +2,7 @@
     color: green;
     border-style: solid;
     background-color: black;
+    margin: auto;
 }
 .fire{
     color: red;
@@ -15,3 +16,4 @@
 .ice{
     color: cyan;
 }
+
