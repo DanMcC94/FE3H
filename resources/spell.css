@@ -1,28 +1,45 @@
-
-
+.Reasonbrd{
+    background-color: #670070;
+    border-style: solid;
+}
 .Speborder{
-    color: green;
+    color: #00ffb3;
     border-style: solid;
     background-color: black;
-    margin: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.blankSpace{
+    background-color: #670070;
 }
 .fire{
     color: red;
+    line-height: 150%;
 }
 .elec{
     color: yellow;
+    line-height: 150%;
 }
 .wind{
     color: chartreuse;
+    line-height: 150%;
 }
 .ice{
     color: cyan;
+    line-height: 150%;
 }
 .other{
-    color:rgb(255, 143, 255);
+    color:#ff04ff;
+    line-height: 150%;
 }
 .white{
     color: whitesmoke;
+    line-height: 150%;
+}
+.spellMargin{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
 }
 @media screen and (max-width: 765px) {
     .col-sm-12{
