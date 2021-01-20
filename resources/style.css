@@ -63,6 +63,9 @@ header{
 .class{
     color: powderblue;
 }
+.battalion{
+    color: brown;
+}
 
 .iconSize{
     max-width: 24px;

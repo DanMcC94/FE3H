@@ -55,8 +55,17 @@
 @media screen and (max-width: 765px) {
     .col-sm-12{
         width: 25%;
+        font-size: 75%;
     }
     .col-sm-11{
         width: 33%;
+        font-size: 75%;
+    }
+    .col-sm-10{
+        width: 20%; 
+        font-size: 75%;
+    }
+    .smallTxt{
+        font-size: 80%;
     }
 }
