@@ -1,46 +1,57 @@
-.Reasonbrd{
-    background-color: #670070;
-    border-style: solid;
-}
+/*Borders*/
+
 .Speborder{
     color: #00ffb3;
     border-style: solid;
     background-color: black;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
-.blankSpace{
-    background-color: #670070;
+.reasonSpace{
+    background-color: #67007071;
+}
+.faithSpace{
+    background-color: rgba(4, 0, 255, 0.418);
+}
+.darkSpace{
+    background-color: black;
+}
+/*Text colors*/
+.spell{
+    color: #00ffb3;
+    line-height: 175%;
 }
 .fire{
     color: red;
-    line-height: 150%;
+    line-height: 175%;
 }
 .elec{
     color: yellow;
-    line-height: 150%;
+    line-height: 175%;
 }
 .wind{
     color: chartreuse;
-    line-height: 150%;
+    line-height: 175%;
 }
 .ice{
     color: cyan;
-    line-height: 150%;
+    line-height: 175%;
 }
 .other{
     color:#ff04ff;
-    line-height: 150%;
+    line-height: 175%;
 }
 .white{
     color: whitesmoke;
-    line-height: 150%;
+    line-height: 175%;
 }
+/*Bring text away from borders*/
 .spellMargin{
     margin-left: 5%;
     margin-right: 5%;
     padding: 1%;
 }
+/*Changes col 11 and 12 for smaller screens*/
 @media screen and (max-width: 765px) {
     .col-sm-12{
         width: 25%;
