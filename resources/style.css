@@ -47,6 +47,23 @@ header{
     color:  gold;
     border-style: solid; 
 }
+/*   Used for changing the opacity of the border
+.Classbrd{
+    border-style: solid;
+    background-color: rgba(28, 230, 112, 0.514);
+    padding: 3%;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    animation-name: flare;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes flare{
+    from {opacity: 80%;}
+    to {opacity: 40%;}
+}
+
+*/
 /*Span coloring for keywords*/
 .ability{
     color: rgb(21, 102, 252);
@@ -88,6 +105,10 @@ header{
 }
 a{
     color: inherit;
+}
+.Weakness{
+    float: right;
+    
 }
 @media screen and (max-width: 992px) {
     

@@ -47,13 +47,13 @@
 }
 /*Bring text away from borders*/
 .spellMargin{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
     padding: 1%;
 }
 /*Changes col 11 and 12 for smaller screens*/
 @media screen and (max-width: 765px) {
-    .col-sm-12{
+    .Spells{
         width: 25%;
         font-size: 75%;
     }
@@ -68,4 +68,5 @@
     .smallTxt{
         font-size: 80%;
     }
+    
 }
