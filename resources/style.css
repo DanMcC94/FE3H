@@ -34,7 +34,7 @@ header{
 }
 .BEborder{
     background-color: black;
-    color: crimson;
+    border-color: rgba(220, 20, 60, 0.336);
     border-style: solid; 
 }
 .BLborder{
@@ -46,6 +46,14 @@ header{
     background-color: black;
     color:  gold;
     border-style: solid; 
+}
+.txtBrd {
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 1%;
+    background-color: rgba(192, 192, 192, 0.25);
+    border-style: solid; 
+    border-color: inherit;
 }
 /*   Used for changing the opacity of the border
 .Classbrd{
@@ -66,7 +74,7 @@ header{
 */
 /*Span coloring for keywords*/
 .ability{
-    color: rgb(21, 102, 252);
+    color: rgb(45, 154, 255);
     line-height: 150%;
 }
 .spell{
@@ -75,7 +83,7 @@ header{
 }
 .art{
     color: coral;
-    line-height: 150%;
+    line-height: 200%;
 }
 .class{
     color: powderblue;
@@ -83,12 +91,29 @@ header{
 .battalion{
     color: brown;
 }
-
+.heroic{
+    color: springgreen;
+    animation: heroic 2s infinite;
+    display: block;
+}
+@-webkit-keyframes heroic{
+    0% {color: springgreen;}
+    25% {color: rgb(204, 3, 3);}
+    50% {color: blue;}
+    75% {color: rgb(247, 0, 255);}
+    100% {color: rgb(255, 210, 88);}
+}
+.hide{
+    position: relative;
+    max-width: 10%;
+    height: auto;
+    padding: 10px;
+    line-height: 200%;
+}
 .iconSize{
     max-width: 24px;
     max-height: 24px;
 }
-
 .txtCent{
     text-align: center;
 }
@@ -97,12 +122,13 @@ header{
 }
 .selector {
     position: fixed;
-    top: 5%;
+    top: 0%;
     max-width: 10%;
     height: auto;
     padding: 10px;
     line-height: 200%;
 }
+
 a{
     color: inherit;
 }
@@ -125,6 +151,7 @@ a{
         padding: 3px;
         top: 0%;
     }
+    
     .column{
     width: 100%;
     }
